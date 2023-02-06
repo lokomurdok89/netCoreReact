@@ -1,0 +1,19 @@
+Instalar VSC
+Instalar Git
+Instalar Nodejs
+
+Extensiones VSC
+
+C#
+C# Extension
+MaterialIcon
+Nuget Gallery
+SQLite
+
+------CREACION Y MIGRACIONES DESDE APP-----
+
+dotnet ef migrations add InitialCreate -s API -p Persistence
+--genera migración 
+
+dotnet watch
+--Permite ver los cambios de la app en tiempo real
