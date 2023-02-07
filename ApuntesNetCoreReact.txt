@@ -10,10 +10,28 @@ MaterialIcon
 Nuget Gallery
 SQLite
 
+Extensiones Chrome
+
+React Developer Tools
+
 ------CREACION Y MIGRACIONES DESDE APP-----
 
 dotnet ef migrations add InitialCreate -s API -p Persistence
 --genera migración 
 
+para generar el seed desde el principio se debe generar en la carpeta program para cuando se inicie.
+
 dotnet watch
 --Permite ver los cambios de la app en tiempo real
+
+--------REACT
+--codigo para generar proyecto react, se debe poner en la misma ruta donde se genero el otro proyecto.
+
+npx create-react-app client-app --use-npm --template typescript
+
+--para levantar app react 
+npm start
+
+-------AXIOS y CORS
+--Instalar axios para poder realizar llamadas a servicios externos
+
