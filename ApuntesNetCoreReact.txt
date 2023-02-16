@@ -35,3 +35,9 @@ npm start
 -------AXIOS y CORS
 --Instalar axios para poder realizar llamadas a servicios externos
 
+npm install axios
+   --> se debe agregar el policy cors a la app para que pueda ser consumida.
+
+-------SEMANTIC-UI
+
+npm install semantic-ui-react semantic-ui-css
